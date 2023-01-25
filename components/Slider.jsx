@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React, { useState } from 'react';
 import { SliderData } from './SliderData';
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
@@ -44,8 +44,11 @@ const Slider = ({ slides }) => {
                                     alt='/'
                                     width='1440'
                                     height='600'
-                                    objectFit='cover'
-                                />
+                                    style={{
+                                        maxWidth: "100%",
+                                        height: "auto",
+                                        objectFit: "cover"
+                                    }} />
                             )}
                             <FaArrowCircleRight
                                 onClick={nextSlide}

@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import React from 'react';
 
 const Portfolio = () => {
@@ -10,10 +10,13 @@ const Portfolio = () => {
                     <Image
                         src='https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80'
                         alt='/'
-                        layout='responsive'
                         width='677'
                         height='451'
-                    />
+                        sizes="100vw"
+                        style={{
+                            width: "100%",
+                            height: "auto"
+                        }} />
                 </div>
                 <div className='w-full h-full'>
                     <Image
@@ -21,9 +24,12 @@ const Portfolio = () => {
                         alt='/'
                         width='215'
                         height='217'
-                        layout='responsive'
-                        objectFit='cover'
-                    />
+                        sizes="100vw"
+                        style={{
+                            width: "100%",
+                            height: "auto",
+                            objectFit: "cover"
+                        }} />
                 </div>
                 <div className='w-full h-full'>
                     <Image
@@ -31,9 +37,12 @@ const Portfolio = () => {
                         alt='/'
                         width='215'
                         height='217'
-                        layout='responsive'
-                        objectFit='cover'
-                    />
+                        sizes="100vw"
+                        style={{
+                            width: "100%",
+                            height: "auto",
+                            objectFit: "cover"
+                        }} />
                 </div>
                 <div className='w-full h-full'>
                     <Image
@@ -41,9 +50,12 @@ const Portfolio = () => {
                         alt='/'
                         width='215'
                         height='217'
-                        layout='responsive'
-                        objectFit='cover'
-                    />
+                        sizes="100vw"
+                        style={{
+                            width: "100%",
+                            height: "auto",
+                            objectFit: "cover"
+                        }} />
                 </div>
                 <div className='w-full h-full'>
                     <Image
@@ -51,9 +63,12 @@ const Portfolio = () => {
                         alt='/'
                         width='215'
                         height='217'
-                        layout='responsive'
-                        objectFit='cover'
-                    />
+                        sizes="100vw"
+                        style={{
+                            width: "100%",
+                            height: "auto",
+                            objectFit: "cover"
+                        }} />
                 </div>
             </div>
         </div>
