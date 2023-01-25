@@ -6,7 +6,8 @@ import IgImg4 from '../public/ig-img-4.jpeg';
 import IgImg5 from '../public/ig-img-5.jpeg';
 import IgImg6 from '../public/ig-img-6.jpeg';
 import InstagramImg from './InstagramImg';
-
+//todo https://www.section.io/engineering-education/integrating-instagram-basic-display-api/
+//todo https://dev.to/tolentinoel/want-your-instagram-feed-on-your-project-1hl8
 
 const Instagram = () => {
     return (
